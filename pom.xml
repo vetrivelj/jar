@@ -28,11 +28,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 				<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration>
 		</plugin>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>libXtst</artifactId>
-			<version>2.6</version>
-		</plugin>
 </plugins>
 </build>
 </project>
