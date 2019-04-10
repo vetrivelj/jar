@@ -28,13 +28,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 				<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration>
 		</plugin>
-		<plugins>
-    <plugin>
+   <plugin>
       <groupId>com.github.github</groupId>
       <artifactId>site-maven-plugin</artifactId>
       <version>0.12</version>
       <configuration>
-        <message>Creating site for ${project.version}</message>
+        <message>Creating site for</message>
       </configuration>
       <executions>
         <execution>
@@ -45,7 +44,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         </execution>
       </executions>
     </plugin>
-  </plugins>
+ 
 </plugins>
 </build>
 </project>
